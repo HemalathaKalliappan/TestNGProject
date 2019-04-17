@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <parameter name="password" value="pass"/>
+  <parameter name="browser" value="ie"/>
+  <parameter name="emailid" value="Admin"/>
+  <test name="RegistrationPageRegressionTests(failed)">
+    <parameter name="password" value="pass"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="emailid" value="Admin"/>
+    <classes>
+      <class name="pageobjectmodel1.contactpagetest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobjectmodel1.contactpagetest -->
+    </classes>
+  </test> <!-- RegistrationPageRegressionTests(failed) -->
+  <test name="RegistrationPageRegressionTests1(failed)">
+    <parameter name="password" value="pass"/>
+    <parameter name="browser" value="ie"/>
+    <parameter name="emailid" value="Admin"/>
+    <classes>
+      <class name="pageobjectmodel1.contactpagetest">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pageobjectmodel1.contactpagetest -->
+    </classes>
+  </test> <!-- RegistrationPageRegressionTests1(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
