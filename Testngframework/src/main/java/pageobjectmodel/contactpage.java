@@ -13,13 +13,13 @@ import Baseclass.TestBase;
 public class contactpage extends TestBase {
 		
 	@FindBy(xpath = "//a[contains(text(),'Contacts')]")
-	WebElement contactsLink;
+	static WebElement contactsLink;
 	
 	@FindBy(xpath = "//a[contains(text(),'New Contact')]")
-	WebElement newContactLink;
+	public WebElement newContactLink;
 	
 	@FindBy(xpath= "//*[@name=\"title\"]")
-	WebElement title;
+	private WebElement title;
 	
 	@FindBy(xpath ="//*[@id=\"first_name\"]")
 	WebElement firstName;

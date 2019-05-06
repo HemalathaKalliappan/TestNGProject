@@ -7,39 +7,9 @@
         <methods>
           <include name="setUp"/>
           <include name="verifyContactsPageLabel"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- pageobjectmodel1.contactpagetest -->
-      <class name="Selenium.Testngframework.GoogleTest">
-        <methods>
-          <include name="gettitle"/>
-          <include name="test"/>
-          <include name="maillink"/>
-          <include name="test1"/>
-          <include name="setup"/>
-          <include name="googlelogotest"/>
-        </methods>
-      </class> <!-- Selenium.Testngframework.GoogleTest -->
-      <class name="Parametertest.parametertest">
-        <methods>
-          <include name="parameter"/>
-        </methods>
-      </class> <!-- Parametertest.parametertest -->
-      <class name="Selenium.Testngframework.Exceptiontimeout">
-        <methods>
-          <include name="test"/>
-        </methods>
-      </class> <!-- Selenium.Testngframework.Exceptiontimeout -->
-      <class name="Selenium.Testngframework.TestngAnnotations">
-        <methods>
-          <include name="logout"/>
-          <include name="LaunchBrowser"/>
-          <include name="login"/>
-          <include name="EnterURL"/>
-          <include name="deletecookies"/>
-          <include name="Setup"/>
-          <include name="closebrowser"/>
-        </methods>
-      </class> <!-- Selenium.Testngframework.TestngAnnotations -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -80,8 +80,19 @@
 				TestNG suite XML files
 					<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					
+					 <systemPropertyVariables>
+            <executionBrowser>${browser}</executionBrowser>
+            <appURL>${urlToBeTested}</appURL>
+          
+          </systemPropertyVariables>
+					
+					
+					
+					
 				</configuration>
-			</plugin>   -->
+			</plugin>    -->
+			
 </plugins>
 </build>
 	  
