@@ -68,15 +68,15 @@ public class TestBase {
 			eventListener = new WebDriverListener();
 			e_driver.register(eventListener);
 			driver = e_driver;
-	driver.manage().deleteAllCookies();
-   driver.manage().window().maximize();
+			driver.manage().deleteAllCookies();
+			driver.manage().window().maximize();
 	
-   driver.get(prop.getProperty("url"));
+			driver.get(prop.getProperty("url"));
 
-   driver.findElement(By.name("username")).sendKeys(prop.getProperty("username"));
-   driver.findElement(By.name("password")).sendKeys(prop.getProperty("password"));
-   Thread.sleep(2000);
-   driver.findElement(By.xpath("//input[@type='submit']")).click();
+			driver.findElement(By.name("username")).sendKeys(prop.getProperty("username"));
+			driver.findElement(By.name("password")).sendKeys(prop.getProperty("password"));
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//input[@type='submit']")).click();
    
 	/*driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
